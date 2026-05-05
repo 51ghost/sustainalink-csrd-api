@@ -9,21 +9,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy dependency files
-COPY requirements.txt ./
+COPY requirements.txt pyproject.toml ./
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY pyproject.toml ./
 COPY src/ src/
 COPY config/ config/
-
-# Copy application code
-COPY . .
+COPY main.py .
 
 # Expose API port
 EXPOSE 8000
 
 # Run with uvicorn
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
