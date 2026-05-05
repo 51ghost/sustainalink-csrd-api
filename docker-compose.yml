@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    container_name: sustainalink-csrd-api
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=SustainaLink CSRD API
+      - APP_VERSION=0.1.0
+      - DEBUG=true
+      - DATABASE_URL=sqlite+aiosqlite:///./data/sustainalink_csrd.db
+      - CORS_ORIGINS=["*"]
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped

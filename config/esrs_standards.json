@@ -1,0 +1,139 @@
+[
+  {
+    "id": "ESRS_1",
+    "name": "General Requirements",
+    "category": "cross-cutting",
+    "description": "General principles for sustainability reporting, including materiality assessment, value chain reporting, and preparation basis under CSRD.",
+    "disclosure_requirements": [
+      {"id": "ESRS_1_1", "title": "Basis of Preparation", "description": "General basis for preparing sustainability statements in accordance with ESRS."},
+      {"id": "ESRS_1_2", "title": "Materiality Assessment", "description": "Process for determining material impacts, risks, and opportunities (double materiality)."},
+      {"id": "ESRS_1_3", "title": "Value Chain", "description": "Scope and boundaries of value chain reporting."}
+    ],
+    "datapoints": ["DP-1-1", "DP-1-2", "DP-1-3"]
+  },
+  {
+    "id": "ESRS_2",
+    "name": "General Disclosures",
+    "category": "cross-cutting",
+    "description": "Mandatory disclosures applicable to all companies under CSRD, including strategy, governance, and materiality analysis.",
+    "disclosure_requirements": [
+      {"id": "ESRS_2_1", "title": "Strategy and Business Model", "description": "Description of strategy, business model and value chain in relation to sustainability matters."},
+      {"id": "ESRS_2_2", "title": "Stakeholder Engagement", "description": "Interests and views of stakeholders and how they are taken into account."},
+      {"id": "ESRS_2_3", "title": "Material IROs", "description": "Process to identify and assess material impacts, risks and opportunities."}
+    ],
+    "datapoints": ["DP-2-1", "DP-2-2", "DP-2-3"]
+  },
+  {
+    "id": "ESRS_E1",
+    "name": "Climate Change",
+    "category": "environmental",
+    "description": "Climate-related disclosures including GHG emissions (Scope 1, 2, 3), climate transition plans aligned with 1.5°C pathway, and physical/transition risk management.",
+    "disclosure_requirements": [
+      {"id": "ESRS_E1_1", "title": "Climate Transition Plan", "description": "Company's plan for transitioning to a sustainable economy and limiting global warming to 1.5°C."},
+      {"id": "ESRS_E1_2", "title": "GHG Emissions", "description": "Scope 1, 2, and 3 greenhouse gas emissions in tCO2e."},
+      {"id": "ESRS_E1_3", "title": "Climate Risk Assessment", "description": "Physical and transition risks from climate change."}
+    ],
+    "datapoints": ["DP-E1-1", "DP-E1-2", "DP-E1-3", "DP-E1-4"]
+  },
+  {
+    "id": "ESRS_E2",
+    "name": "Pollution",
+    "category": "environmental",
+    "description": "Disclosures on air, water, and soil pollution, including substances of concern and microplastics.",
+    "disclosure_requirements": [
+      {"id": "ESRS_E2_1", "title": "Pollution Prevention", "description": "Policies and actions to prevent and control pollution."},
+      {"id": "ESRS_E2_2", "title": "Pollution Metrics", "description": "Measurement of emissions to air, water, and soil."}
+    ],
+    "datapoints": ["DP-E2-1", "DP-E2-2", "DP-E2-3"]
+  },
+  {
+    "id": "ESRS_E3",
+    "name": "Water and Marine Resources",
+    "category": "environmental",
+    "description": "Disclosures on water consumption, water withdrawals, and impacts on marine ecosystems.",
+    "disclosure_requirements": [
+      {"id": "ESRS_E3_1", "title": "Water Management", "description": "Policies and actions related to water resources."},
+      {"id": "ESRS_E3_2", "title": "Water Metrics", "description": "Water consumption, withdrawal, and discharge metrics."}
+    ],
+    "datapoints": ["DP-E3-1", "DP-E3-2"]
+  },
+  {
+    "id": "ESRS_E4",
+    "name": "Biodiversity and Ecosystems",
+    "category": "environmental",
+    "description": "Disclosures on impacts on biodiversity and ecosystems, including land use change and deforestation.",
+    "disclosure_requirements": [
+      {"id": "ESRS_E4_1", "title": "Biodiversity Strategy", "description": "Transition plan and policies for biodiversity protection."},
+      {"id": "ESRS_E4_2", "title": "Biodiversity Metrics", "description": "Metrics related to biodiversity and ecosystem impact."}
+    ],
+    "datapoints": ["DP-E4-1", "DP-E4-2"]
+  },
+  {
+    "id": "ESRS_E5",
+    "name": "Resource Use and Circular Economy",
+    "category": "environmental",
+    "description": "Disclosures on resource use, waste management, and circular economy practices.",
+    "disclosure_requirements": [
+      {"id": "ESRS_E5_1", "title": "Circular Economy", "description": "Policies and actions for transitioning to circular economy."},
+      {"id": "ESRS_E5_2", "title": "Resource Flows", "description": "Resource inflows, outflows, and waste metrics."}
+    ],
+    "datapoints": ["DP-E5-1", "DP-E5-2", "DP-E5-3"]
+  },
+  {
+    "id": "ESRS_S1",
+    "name": "Own Workforce",
+    "category": "social",
+    "description": "Disclosures on the company's own workforce including working conditions, diversity, and health & safety.",
+    "disclosure_requirements": [
+      {"id": "ESRS_S1_1", "title": "Workforce Characteristics", "description": "Characteristics of the company's own employees and non-employees."},
+      {"id": "ESRS_S1_2", "title": "Working Conditions", "description": "Working time, health and safety, remuneration, and social dialogue."},
+      {"id": "ESRS_S1_3", "title": "Diversity and Inclusion", "description": "Diversity metrics and equal opportunity policies."}
+    ],
+    "datapoints": ["DP-S1-1", "DP-S1-2", "DP-S1-3", "DP-S1-4"]
+  },
+  {
+    "id": "ESRS_S2",
+    "name": "Workers in the Value Chain",
+    "category": "social",
+    "description": "Disclosures on workers in the upstream and downstream value chain.",
+    "disclosure_requirements": [
+      {"id": "ESRS_S2_1", "title": "Value Chain Workforce", "description": "Assessment of working conditions in the value chain."},
+      {"id": "ESRS_S2_2", "title": "Value Chain Engagement", "description": "Processes for engaging with value chain workers."}
+    ],
+    "datapoints": ["DP-S2-1", "DP-S2-2"]
+  },
+  {
+    "id": "ESRS_S3",
+    "name": "Affected Communities",
+    "category": "social",
+    "description": "Disclosures on impacts on communities affected by company operations.",
+    "disclosure_requirements": [
+      {"id": "ESRS_S3_1", "title": "Community Impacts", "description": "Economic, social and cultural impacts on communities."},
+      {"id": "ESRS_S3_2", "title": "Indigenous Rights", "description": "Respect for the rights of indigenous peoples."}
+    ],
+    "datapoints": ["DP-S3-1", "DP-S3-2"]
+  },
+  {
+    "id": "ESRS_S4",
+    "name": "Consumers and End-Users",
+    "category": "social",
+    "description": "Disclosures on impacts on consumers and end-users of the company's products and services.",
+    "disclosure_requirements": [
+      {"id": "ESRS_S4_1", "title": "Consumer Protection", "description": "Policies and actions for consumer health, safety, and privacy."},
+      {"id": "ESRS_S4_2", "title": "Consumer Engagement", "description": "Processes for engaging with consumers and end-users."}
+    ],
+    "datapoints": ["DP-S4-1", "DP-S4-2"]
+  },
+  {
+    "id": "ESRS_G1",
+    "name": "Business Conduct",
+    "category": "governance",
+    "description": "Disclosures on business ethics, anti-corruption, supplier relationships, and political engagement.",
+    "disclosure_requirements": [
+      {"id": "ESRS_G1_1", "title": "Ethics and Anti-Corruption", "description": "Policies against corruption and bribery."},
+      {"id": "ESRS_G1_2", "title": "Supplier Relations", "description": "Payment practices and supplier relationship management."},
+      {"id": "ESRS_G1_3", "title": "Political Engagement", "description": "Lobbying activities and political contributions."}
+    ],
+    "datapoints": ["DP-G1-1", "DP-G1-2", "DP-G1-3"]
+  }
+]
